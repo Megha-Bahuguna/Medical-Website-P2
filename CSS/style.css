@@ -1,4 +1,6 @@
-/* font  */
+
+  
+   /* font  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 :root{
@@ -83,11 +85,11 @@ color: #7d7777;
 }
 #logo{
     display: flex;
-    width: 79em;
+    width: 83em;
 }
-#logo #contact{
-    display: flex;
+ #contact{
   
+    display: flex;
 }
 
 
@@ -101,16 +103,16 @@ color: #7d7777;
     font-size: 44px;
 }
 
-#contact{
+/* #contact{
 position: relative;
 top: -4em;
-}
+} */
 #contact .box1{
-    margin: 22px 11px;
+    margin: 5px 10px;
     position: relative;
-    right: 20em;
-    top: 65px;
-    padding: 22px 1px;
+    right: 19em;
+    top: 43px;
+    padding: 17px 0px;
     
 }
 
@@ -137,11 +139,12 @@ font-weight: 700;
     top: -11px;
 }
 #contact .box2{
-    margin: 18px 11px;
+    margin: -18px 10px;
     position: relative;
-    right: 15em;
-    top: 56px;
-    /* padding: 0px 1px; */
+    right: 14em;
+    display: inline;
+    top: 46px;
+    padding: 0px 0px;
    
 
 }
@@ -905,6 +908,7 @@ float: right;
 }
 
 #bg .patients .p1 img{
+    clip-path: circle(50% at 50% 50%);
     z-index: 1;
     border-radius: 5em;
     width: 100px;
@@ -924,7 +928,7 @@ float: right;
 /* APPOINTMENT SECTION  */
 
 #appointment .section1{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     padding: 22px 19px;
     margin: 22px 81px;
@@ -932,9 +936,9 @@ float: right;
 /* .section1 #para {
     display: none;
 } */
-.section1 form{
+.faq2 form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 375px 168px;
 }
 
 .section1 .faq1{
@@ -961,9 +965,9 @@ float: right;
     cursor: pointer;
     position: relative;
     bottom: 4px;
-    left: 0px;
-    padding: 19px 17px;
-    margin: 4px -1px;
+    left: 1px;
+    padding: 17px 12px;
+    margin: 6px 0px;
     /* position: relative; */
     width: 558px;
     justify-content: left;
@@ -971,7 +975,7 @@ float: right;
     text-align: left;
     background-color: white;
     color: rgb(3, 3, 3);
-    border:#48bdc5 ;
+    border: #48bdc5;
 }
 .section1 button:hover{
    color: #48bdc5;
@@ -1035,9 +1039,13 @@ float: right;
 }
 
 .faq2 .formm input{
-   display: flex;
-    margin: 11px -38px;
-    padding: 17px 32px;
+    display: grid;
+    margin: 10px -98px;
+    /* grid-template-columns: 1fr 200px; */
+    padding: 4px 6px;
+    font-size: 18px;
+    width: 272px;
+    height: 40px;
 }
 
 
@@ -1047,9 +1055,9 @@ float: right;
     margin: 11px 11px;
     padding: 11px 11px;
     position: relative;
-    left: -46px;
-    height: 77px;
-    width: 442px;
+    left: -107px;
+    height: 131px;
+    width: 572px;
 }
 
 .faq2 button .btn11{
@@ -1069,4 +1077,21 @@ float: right;
 .faq2 button .btn11:hover{
     color: #5bc4cb;
     background-color: white;
+}
+
+
+#foot footer{
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+}
+#foot p{
+    padding: 11px 11px;
+    color: white;
+  
 }
